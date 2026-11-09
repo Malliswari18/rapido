@@ -1,0 +1,60 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: solid;
+} */
+ body{
+        display: flex;
+        height: 100px;
+        width:500px;
+        border: solid;
+
+    }
+.card1{
+
+    display: flex;
+    background-color: red;
+    height:100px;
+    width:100px;
+    top: 0px;
+    left:0px
+   
+
+    /* position: absolute; */
+
+}
+.card2{
+    display: flex;
+    background-color: yellow;
+     height:100px;
+    width:100px;
+    top: 0px;
+    right:0px
+  
+
+}
+.card3{
+    display: flex;
+    background-color: blue;
+     height:100px;
+    width:100px;
+  
+    
+}
+.card4{
+    background-color: aqua;
+     height:100px;
+    width:100px;
+
+   
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border:solid;
+    background-color: bisque;
+    margin: 0;
+}

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+/* ! header css starts here  */
+.header {
+  height: 12vh;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo > img {
+  height: 50px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.header .nav .download {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px 20px 0px 20px;
+}
+
+/* ! page 1 css starts here */
+.page1 {
+  background-color: #f7faff;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p1container {
+  height: 90%;
+  width: 40%;
+  /* background-color: blue; */
+  /* border: solid; */
+}
+.rightContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightContainer img {
+  width: 95%;
+}
+.leftContainer .title {
+  font-size: 48px;
+}
+.leftContainer .desc {
+  font-size: 24px;
+  color: #394454;
+  margin: 10px 0px;
+}
+.leftContainer .form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 50px;
+    /* align-items: center; */
+}
+ 
+.form input{
+    height: 70px;
+    width: 90%;
+    font-size: 24px;
+    padding: 0px 26px;
+    border-radius: 10px;
+    border: 1px solid #a0a0a0;
+}
+.form button{
+    height: 80px;
+    width: 90%;
+    margin-top: 27px;
+    background-color: #FFCA20;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.services-section{
+    padding: 20px 150px;
+}
+.services-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+.services-section h2{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    position: relative;
+}
+.services-section h2::after{
+    content: '';
+    height: 5px;
+    width: 150px;
+    background-color: #FFCA20;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+
+}
+.services-cards-container img{
+    height: 120px;
+}
+
+* {
+   
+    box-sizing: border-box;
+}
+
+
+
+.offers-section {
+    width: 100%;
+    padding: 10px 3% 50px;
+}
+
+.section-heading {
+    margin-bottom: 85px;
+}
+
+.section-heading h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.underline {
+    width: 192px;
+    height: 6px;
+    background-color: #ffca05;
+}
+
+.offers-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7.5%;
+}
+
+.offer-card {
+    width: 330px;
+    height: 300px;
+}
+
+.offer-card img {
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px 24px 0 24px;
+    display: block;
+}
+
+.offer-content {
+    padding-top: 32px;
+}
+
+.offer-content h2 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.offer-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+}
